@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Information">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/name_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Of Image"/>
+
+    <TextView
+        android:id="@+id/name_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Of owner"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Describe"/>
+</LinearLayout>
